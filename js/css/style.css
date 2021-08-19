@@ -1,0 +1,78 @@
+@charset "utf8";
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #000;
+}
+
+header h1 {
+  color: white;
+  font-family: ;
+  padding: 20px;
+}
+
+#app {
+  width: 100%;
+  overflow: hidden;
+}
+
+#app #left {
+  width: 34%;
+  float: left;
+  margin-top: 50px;
+}
+
+#app #left #search-box {
+  margin: 30px;
+}
+
+#app #left #search {
+  font-size: 17px;
+  border-radius: 3px;
+}
+
+#app #left #card #card-inner {
+  padding: 20px;
+  width: 90%;
+  margin-bottom: 0 auto;
+  font-size: 15px;
+  line-height: 17px;
+  box-shadow: 5px 5px 5px 5px #ddd;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+#app #left #card #card-inner p {
+  margin-bottom: 10px;
+}
+
+#app #map {
+  position: fixed !important;
+  border-left: solid 1px black;
+  width: 65%;
+  float: right;
+  height: 850px;
+  top: 56px;
+  right: 0;
+}
+
+#app #weather {
+  border-left: solid 1px black;
+  text-align: center;
+  border-top: solid black 1px;
+  height: 130px;
+  width: 65%;
+  float: right;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+#app #weather .weather-report {
+  width: 19.853%;
+  float: left;
+  border-right: solid 1px black;
+  height: 130px;
+}
