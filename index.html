@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>トラベルハック</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="css/html5reset-1.6.1.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>トラベルハック</h1>
+    </header>
+    <div id="app">
+      <div id="left">
+        <div id="search-box">
+          <input
+            type="text"
+            name="search"
+            id="search"
+            placeholder="検索"
+            value="東京駅"
+          />
+          <button id="search-button">検索</button>
+        </div>
+
+        <div id="card"></div>
+      </div>
+
+      <div id="map"></div>
+    </div>
+  </body>
+  <script type="text/javascript" src="js/jquery-1.12.3.js"></script>
+  <script
+    type="text/javascript"
+    src="http://maps.google.com/maps/api/js?key=AIzaSyDS8VShdhRpjpoANbo168x6aaSDWDSlua0&sensor=false&libraries=places"
+  ></script>
+  <script type="text/javascript" src="js/map.js"></script>
+</html>
